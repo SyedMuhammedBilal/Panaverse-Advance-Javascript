@@ -1,24 +1,15 @@
-const test1 = 1;
-const test2 = 2;
-const test3 = 3;
+// series of conditional tests with predictions
 
-// Test 1
-if (test1 === 1) {
-  console.log("Test 1 passed");
-} else {
-  console.log("Test 1 failed");
-}
+const x = 5;
+const y = 10;
+const z = 15;
 
-// Test 2
-if (test2 === 1) {
-  console.log("Test 2 passed");
-} else {
-  console.log("Test 2 failed");
-}
+console.log("is x greater than y? I predict false");
+if (x > y) {
+  console.log("x is greater than y");
+} 
 
-// Test 3
-if (test3 === 1) {
-  console.log("Test 3 passed");
-} else {
-  console.log("Test 3 failed");
+console.log("is x smaller than z? I predict true");
+if (x < z) {
+  console.log("x is smaller than z");
 }
