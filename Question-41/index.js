@@ -1,8 +1,9 @@
 const magician = ["White", "Stellar", "Dynamo", "Jon"];
-function list_magicians(names) {
+
+function greeting(names) {
   for (let index = 0; index < names.length; index++) {
-    console.log(names[index]);
+    console.log(`Great ${names[index]}`);
   }
 }
 
-show_magicians(magician);
+greeting(magician);
