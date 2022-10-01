@@ -1,9 +1,9 @@
-const cities = ["London", "Paris", "New York", "Tokyo", "Sydney"];
+const listOfPlaces = []
 
-console.log(cities)
-console.log(cities.slice().sort())
-console.log(cities)
-console.log(cities.reverse())
-console.log(cities.reverse())
-console.log(cities.sort())
-console.log(cities.sort().reverse())
+const addCityToArr = (place) => listOfPlaces.push(place)
+
+addCityToArr("Mount Everest")
+addCityToArr( "K2")
+addCityToArr("Kangchenjunga")
+
+console.log(listOfPlaces)

@@ -1,10 +1,11 @@
-const cities = []
+const celebs_names = {};
 
-const addCityToArr = (newCity) => cities.push(newCity)
+function object_creator(index, name) {
+    celebs_names[index] = name;
+}
 
-addCityToArr("Karachi")
-addCityToArr("New York")
-addCityToArr("Washington")
-addCityToArr("Silicon Valley")
+object_creator(1, "Kit Harington");
+object_creator(2, "Emilia Clarke");
+object_creator(3, "Sophie Turner");
+object_creator(4, "Arya Stark");
 
-console.log(cities)
